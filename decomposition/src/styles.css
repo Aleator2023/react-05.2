@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .main-content,
+  .widgets {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-content > *,
+  .widgets > * {
+    margin: 10px;
+  }
+  
+  
+  .header,
+  .search-bar,
+  .recommendation-section,
+  .news-feed,
+  .currency-widget,
+  .weather-widget,
+  .ad-banner,
+  .footer-links {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+  }
+  
+ 
+  
